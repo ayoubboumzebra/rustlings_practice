@@ -34,9 +34,7 @@ mod my_module {
         let mut output: Vec<String> = vec![];
         for (string, command) in input.iter() {
             // TODO: Complete the function body. You can do it!
-            // if command == Command::Uppercase {
-            //     output.push(string.to_uppercase())
-            // }
+           
             match command {
                 Command::Uppercase => output.push(string.to_uppercase()),
                 Command::Trim => output.push(string.trim().to_string()),
